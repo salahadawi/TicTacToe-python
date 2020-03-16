@@ -5,7 +5,7 @@ import random, sys, os, time
 if (len(sys.argv) != 2):
 	print("Enter a valid gamemode.")
 	print("Available gamemodes:\n")
-	print("Random")
+	print("Random		# The cpu makes random moves")
 	sys.exit()
 
 XWINS = 1
